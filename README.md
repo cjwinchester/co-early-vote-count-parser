@@ -1,11 +1,11 @@
 # Colorado early vote count PDF parser
 Some Python to parse the current version of the Colorado Secretary of State's daily early vote total PDFs into a tidy CSV with one observation per line. It assumes that the structure of the Excel spreadsheet being saved as a PDF by the secretary's office, and the file naming convention, will remain consistent -- at least for this election cycle.
 
-[Before](https://www.sos.state.co.us/pubs/newsRoom/pressReleases/2018/20181026BallotsReturnedByAgePartyGender.pdf):
+**[Before](https://www.sos.state.co.us/pubs/newsRoom/pressReleases/2018/20181026BallotsReturnedByAgePartyGender.pdf)**
 
 ![Screenshot of PDF report](scrnsht.png "Screenshot of PDF report")
 
-After:
+**After**
 
 ```csv
 report_date,county,gender,party,returned_votes

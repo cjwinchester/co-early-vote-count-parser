@@ -21,7 +21,7 @@ report_date,county,gender,party,returned_votes
 ```
 
 ## Setup/usage
-This uses `pdfplumber` to parse the PDF with `pipenv` managing the dependency/virtualenv. Clone or download this repository and `cd` into the directory. Then:
+This uses [`pdfplumber`](https://github.com/jsvine/pdfplumber) to parse the PDF with [`pipenv`](https://pipenv.readthedocs.io/en/latest/) managing the dependency/virtualenv. Clone or download this repository and `cd` into the directory. Then:
 - `pipenv install`
 - `pipenv run python co-early-votes.py --pdf path/to/your/pdf`
 

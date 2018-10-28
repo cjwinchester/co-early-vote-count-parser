@@ -98,7 +98,7 @@ if __name__ == '__main__':
     csv_out = '{}-co-early-vote-totals.csv'.format(report_date)
 
     # open the PDF file and the CSV to write to
-    with pdfplumber.open(args.pdf) as pdf, open(csv_out, 'w') as outfile:
+    with pdfplumber.open(pdf_in) as pdf, open(csv_out, 'w') as outfile:
 
         # create a writer object
         writer = csv.DictWriter(outfile, fieldnames=OUTCOLS)
